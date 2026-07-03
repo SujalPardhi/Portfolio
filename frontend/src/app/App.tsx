@@ -795,7 +795,7 @@ function ProjectCard({
             color:
               p.status === "Ongoing" ? "#00f5ff" : "#a855f7",
             border: `1px solid ${p.status === "Ongoing" ? "rgba(0,245,255,0.25)" : "rgba(124,58,237,0.25)"}`,
-          }}
+          }}  
         >
           {p.status}
         </span>
